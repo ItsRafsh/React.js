@@ -1,0 +1,8 @@
+virtual DOM: manipulasi dengan js
+
+
+
+hook adalah sebuah function yg diawali dengan use... dan banyak hal lainnya
+yg menggunakan use juga seperti useState
+
+hook costume seperti function buatan tapi diawali dengan useCounter gitu
