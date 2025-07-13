@@ -1,0 +1,53 @@
+#CLIENT-SIDE ROUTING IN REACT
+cara penggunaan url path menggunakan react kanyak begini 
+index.html mempunyai script src main.tsx nya, lalu
+main.tsx menggunakan BrowserRouter didalamnya ada <App/>, lalu
+App.tsx menggunakan Routes & Route untuk part URL nya menuju element file yg ditampilkan.
+fungsinya menggunakan react katanya lebih cepat daripada pake page .html 1per1,
+
+misalnya
+client meminta home / ke server, lalu server mengembalikan index.html kosongan dan yah baca lagi line 1.
+tapi request nya cuma sekali aja karena sekali request langsung diberikan semuanya seperti /about /terms /contact etc
+
+
+# SEO = Search Engine Optimaze
+# CSR = Client Side Rendering
+# SSR = Server Side Rendering
+
+
+48.23
+
+
+import { BrowserRouter } from 'react-router'
+  <StrictMode>
+    <BrowserRouter>     ini di file main.tsx
+      <App />
+    </BrowserRouter>
+  </StrictMode>,
+
+
+ini file App.tsx
+import {Routes, Route} from "react-router"
+
+    <Routes>
+      <Route path="/" element={<HomePage/>}/>
+      <Route path="/terms" element={<TermsPage/>} />
+    </Routes>
+
+
+# ini buat nangkep semua yg gada bener
+<Route path="*" element={<NotFoundPage/>} />  {/* catch all*/}
+
+
+---------- LATIHAN MANDIRI ----------
+
+
+membuat file NavbarCostum untuk anchor link nya
+penggunaan link itu sebagai pengganti a href juga. dan juga menyediakan css biasa untuk membuat navbar nya
+
+di product detail page aga pusing ngejelasinnya jadi tinggal copy dan tanya ke chatgpt aja
+apalagi yg produk  list page, brooo
+yahhh bissmilah bisa ngoding react aaaamiiiiin
+
+
+
