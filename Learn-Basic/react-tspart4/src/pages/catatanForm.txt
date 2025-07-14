@@ -1,0 +1,18 @@
+------ ini penjelasan di file FormPage.tsx ------ 
+
+pertama di onChange kita ngesingkronin  value nya input ke setFullNameInput. value fullNameInput ini untuk
+ngesingkronin state nya ke input nya. 
+jadi saat setFullNameInput berubah maka state nya harus ikutan berubah,
+ketika state ini berubah fullNameInput, maka input nya akan ikutan berubah
+
+
+
+------ penjelasan di file RHFPage.tsx
+
+
+
+membahasa library react hook form. yahh intinya buka aja file RHFPage dan RHFQnA
+
+
+dan pelajari file FormHomework: itu pembuatan form tapi full gpt, tapi kau pelajari yahhhh
+ngihh
